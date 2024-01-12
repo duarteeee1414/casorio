@@ -7,8 +7,6 @@
 </head>
 <body>
 
-<h1>Meu Site</h1>
-
 <audio id="minhaMusica" controls autoplay muted>
   <source src="musica.mp3" type="audio/mp3">
   Seu navegador não suporta o elemento de áudio.
@@ -19,13 +17,4 @@
 <script>
   // Adiciona um evento para iniciar a reprodução automática após a página carregar
   document.addEventListener('DOMContentLoaded', function () {
-    var minhaMusica = document.getElementById('minhaMusica');
-    // Ativa o som depois de 100 milissegundos (ajuste conforme necessário)
-    setTimeout(function () {
-      minhaMusica.muted = false;
-    }, 100);
-  });
-</script>
-
-</body>
-</html>
+    var minhaMusica = document.getElementById('minhaMusi
